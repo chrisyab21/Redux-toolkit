@@ -1,0 +1,32 @@
+
+
+.todoApp{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h4{
+
+    margin-top: -5px;
+}
+
+.buttonsContainer {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+pre{
+
+    margin-top: -5px;
+}
+
+
+button{
+
+    width: 150px;
+}

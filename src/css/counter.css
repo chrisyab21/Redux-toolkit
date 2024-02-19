@@ -1,0 +1,32 @@
+
+.counterApp{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    background-color: rgba(253, 25, 25, 0.822);
+    border-radius: 30%;
+
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 2em;
+    margin-top: -30px;
+  }
